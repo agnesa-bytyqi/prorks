@@ -3,7 +3,7 @@
 //mimic the actuall admin-ajax
 define('DOING_AJAX', true);
 if (!isset( $_POST['action']))
-    die('-1 bis');
+    die('-1 bis');  
 
 //make sure you update this line 
 //to the relative location of the wp-load.php
