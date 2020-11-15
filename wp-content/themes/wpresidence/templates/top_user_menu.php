@@ -34,6 +34,7 @@ $show_top_bar_user_login    =   esc_html ( wpresidence_get_option('wp_estate_sho
     </div> 
 <?php }else{ ?>
     <div class="user_menu user_not_loged" id="user_menu_u">   
+    <p>hello</p>
         <?php
         
         if($show_top_bar_user_login=='yes'){
