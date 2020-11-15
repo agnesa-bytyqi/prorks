@@ -16,7 +16,9 @@ $show_top_bar_user_login    =   esc_html ( wpresidence_get_option('wp_estate_sho
    
 <?php if(is_user_logged_in()){ ?>   
     <div class="user_menu user_loged" id="user_menu_u">
-        <p>hello</p>
+        <a href="https://www.google.com/">
+            <img src="/img/proreal.png" alt="logo">
+        </a>
         <?php 
         echo wpestate_header_phone();
         
@@ -34,7 +36,9 @@ $show_top_bar_user_login    =   esc_html ( wpresidence_get_option('wp_estate_sho
     </div> 
 <?php }else{ ?>
     <div class="user_menu user_not_loged" id="user_menu_u">   
-    <p>hello</p>
+        <a href="https://www.google.com/">
+            <img src="/img/proreal.png" alt="logo">
+        </a>
         <?php
         
         if($show_top_bar_user_login=='yes'){
