@@ -16,11 +16,12 @@ $show_top_bar_user_login    =   esc_html ( wpresidence_get_option('wp_estate_sho
    
 <?php if(is_user_logged_in()){ ?>   
     <div class="user_menu user_loged" id="user_menu_u">
-
-        
-    <?php
-        print '<a href="https://www.google.com/"><img src="'.get_theme_file_uri('./img/proreal.png').'"  class=""/> </a>'
-?>
+    <a href="https://www.google.com/">
+        <?php
+           
+            echo  "<img src='.img/proreal.png'>"
+        ?>
+            </a>
 
         <?php 
         echo wpestate_header_phone();
@@ -30,7 +31,6 @@ $show_top_bar_user_login    =   esc_html ( wpresidence_get_option('wp_estate_sho
                 $wpestate_global_payments->show_cart_icon();
             }
             ?>
-            
             <a class="menu_user_tools dropdown" id="user_menu_trigger" data-toggle="dropdown"> 
                 <a class="navicon-button x">
                     <div class="navicon"></div>
@@ -41,9 +41,7 @@ $show_top_bar_user_login    =   esc_html ( wpresidence_get_option('wp_estate_sho
 <?php }else{ ?>
     <div class="user_menu user_not_loged" id="user_menu_u">   
         <a href="https://www.google.com/">
-        <?php
-        print '<img src="'.get_theme_file_uri('./img/proreal.png').'"  class=""/>'
-?>
+            <img src="./img/proreal.png" alt="logo">
         </a>
         <?php
         
