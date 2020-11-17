@@ -19,9 +19,7 @@ $show_top_bar_user_login    =   esc_html ( wpresidence_get_option('wp_estate_sho
     
         
            
-    <?php
-        print '<a href="https://www.google.com/"><img src="'.get_theme_file_uri('/img/proreal.png').'"  class=""/> </a>'
-?>
+    
         
             
 
@@ -33,6 +31,9 @@ $show_top_bar_user_login    =   esc_html ( wpresidence_get_option('wp_estate_sho
                 $wpestate_global_payments->show_cart_icon();
             }
             ?>
+            <?php
+        print '<a href="https://www.google.com/"><img src="'.get_theme_file_uri('/img/proreal.png').'"  class=""/> </a>'
+?>
             <a class="menu_user_tools dropdown" id="user_menu_trigger" data-toggle="dropdown"> 
                 <a class="navicon-button x">
                     <div class="navicon"></div>
