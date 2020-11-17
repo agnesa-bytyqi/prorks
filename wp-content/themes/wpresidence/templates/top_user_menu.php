@@ -19,7 +19,9 @@ $show_top_bar_user_login    =   esc_html ( wpresidence_get_option('wp_estate_sho
     <a href="https://www.google.com/">
         
            
-    <img src="'.get_theme_file_uri('/img/proreal.png').'"  class=""/>
+    <?php
+        print '<img src="'.get_theme_file_uri('/img/proreal.png').'"  class=""/>'
+?>
         
             </a>
 
@@ -41,8 +43,9 @@ $show_top_bar_user_login    =   esc_html ( wpresidence_get_option('wp_estate_sho
 <?php }else{ ?>
     <div class="user_menu user_not_loged" id="user_menu_u">   
         <a href="https://www.google.com/">
-        <img src="'.get_theme_file_uri('/img/proreal.png').'"  class=""/>
-
+        <?php
+        print '<img src="'.get_theme_file_uri('/img/proreal.png').'"  class=""/>'
+?>
         </a>
         <?php
         
