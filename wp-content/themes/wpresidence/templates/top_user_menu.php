@@ -19,7 +19,7 @@ $show_top_bar_user_login    =   esc_html ( wpresidence_get_option('wp_estate_sho
     <a href="https://www.google.com/">
         <?php
            
-            echo  "<img src='img/proreal.png'>"
+            echo  "<img src='./img/proreal.png'>"
         ?>
             </a>
 
